@@ -1,0 +1,239 @@
+osip_proxy_authentication_info.lo: osip_proxy_authentication_info.c \
+ ../../include/osipparser2/internal.h ../../osip-config.h \
+ /usr/include/string.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/reent.h \
+ /usr/include/_ansi.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/stddef.h \
+ /usr/include/sys/_types.h /usr/include/machine/_types.h \
+ /usr/include/machine/_default_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/cdefs.h /usr/include/xlocale.h \
+ /usr/include/sys/string.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/stdarg.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/endian.h /usr/include/machine/_endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+ /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/_pthreadtypes.h /usr/include/machine/types.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/sysmacros.h \
+ /usr/include/sys/stdio.h /usr/include/stdlib.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/include/time.h /usr/include/machine/time.h \
+ /usr/include/cygwin/time.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+ /usr/include/sys/ucontext.h /usr/include/sys/time.h \
+ /usr/include/machine/_time.h ../../include/osipparser2/osip_port.h \
+ ../../include/osipparser2/osip_const.h \
+ ../../include/osipparser2/osip_list.h \
+ ../../include/osipparser2/osip_message.h \
+ ../../include/osipparser2/osip_headers.h \
+ ../../include/osipparser2/osip_uri.h \
+ ../../include/osipparser2/headers/osip_header.h \
+ ../../include/osipparser2/headers/osip_accept.h \
+ ../../include/osipparser2/headers/osip_content_type.h \
+ ../../include/osipparser2/headers/osip_accept_encoding.h \
+ ../../include/osipparser2/headers/osip_accept_language.h \
+ ../../include/osipparser2/headers/osip_alert_info.h \
+ ../../include/osipparser2/headers/osip_call_info.h \
+ ../../include/osipparser2/headers/osip_allow.h \
+ ../../include/osipparser2/headers/osip_content_length.h \
+ ../../include/osipparser2/headers/osip_authentication_info.h \
+ ../../include/osipparser2/headers/osip_authorization.h \
+ ../../include/osipparser2/headers/osip_call_id.h \
+ ../../include/osipparser2/headers/osip_contact.h \
+ ../../include/osipparser2/headers/osip_from.h \
+ ../../include/osipparser2/headers/osip_content_disposition.h \
+ ../../include/osipparser2/headers/osip_content_encoding.h \
+ ../../include/osipparser2/headers/osip_cseq.h \
+ ../../include/osipparser2/headers/osip_error_info.h \
+ ../../include/osipparser2/headers/osip_mime_version.h \
+ ../../include/osipparser2/headers/osip_proxy_authenticate.h \
+ ../../include/osipparser2/headers/osip_www_authenticate.h \
+ ../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+ ../../include/osipparser2/headers/osip_proxy_authorization.h \
+ ../../include/osipparser2/headers/osip_record_route.h \
+ ../../include/osipparser2/headers/osip_route.h \
+ ../../include/osipparser2/headers/osip_to.h \
+ ../../include/osipparser2/headers/osip_via.h \
+ ../../include/osipparser2/osip_body.h \
+ ../../include/osipparser2/osip_parser.h
+
+../../include/osipparser2/internal.h:
+
+../../osip-config.h:
+
+/usr/include/string.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/_newlib_version.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/stddef.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/include/sys/lock.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/string.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/stdarg.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/_stdint.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/machine/_endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/sys/_timespec.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/sys/stdio.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/cygwin/stdlib.h:
+
+/usr/include/cygwin/wait.h:
+
+/usr/include/time.h:
+
+/usr/include/machine/time.h:
+
+/usr/include/cygwin/time.h:
+
+/usr/include/signal.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/cygwin/signal.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/machine/_time.h:
+
+../../include/osipparser2/osip_port.h:
+
+../../include/osipparser2/osip_const.h:
+
+../../include/osipparser2/osip_list.h:
+
+../../include/osipparser2/osip_message.h:
+
+../../include/osipparser2/osip_headers.h:
+
+../../include/osipparser2/osip_uri.h:
+
+../../include/osipparser2/headers/osip_header.h:
+
+../../include/osipparser2/headers/osip_accept.h:
+
+../../include/osipparser2/headers/osip_content_type.h:
+
+../../include/osipparser2/headers/osip_accept_encoding.h:
+
+../../include/osipparser2/headers/osip_accept_language.h:
+
+../../include/osipparser2/headers/osip_alert_info.h:
+
+../../include/osipparser2/headers/osip_call_info.h:
+
+../../include/osipparser2/headers/osip_allow.h:
+
+../../include/osipparser2/headers/osip_content_length.h:
+
+../../include/osipparser2/headers/osip_authentication_info.h:
+
+../../include/osipparser2/headers/osip_authorization.h:
+
+../../include/osipparser2/headers/osip_call_id.h:
+
+../../include/osipparser2/headers/osip_contact.h:
+
+../../include/osipparser2/headers/osip_from.h:
+
+../../include/osipparser2/headers/osip_content_disposition.h:
+
+../../include/osipparser2/headers/osip_content_encoding.h:
+
+../../include/osipparser2/headers/osip_cseq.h:
+
+../../include/osipparser2/headers/osip_error_info.h:
+
+../../include/osipparser2/headers/osip_mime_version.h:
+
+../../include/osipparser2/headers/osip_proxy_authenticate.h:
+
+../../include/osipparser2/headers/osip_www_authenticate.h:
+
+../../include/osipparser2/headers/osip_proxy_authentication_info.h:
+
+../../include/osipparser2/headers/osip_proxy_authorization.h:
+
+../../include/osipparser2/headers/osip_record_route.h:
+
+../../include/osipparser2/headers/osip_route.h:
+
+../../include/osipparser2/headers/osip_to.h:
+
+../../include/osipparser2/headers/osip_via.h:
+
+../../include/osipparser2/osip_body.h:
+
+../../include/osipparser2/osip_parser.h:
