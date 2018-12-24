@@ -157,7 +157,7 @@ int _GetFrame(void* handle, const char **frame, int *length)
         desc->config.spslen = desc->sps.size();
 
         SPS stuSps;
-        h264dec_seq_parameter_set((void*)desc->sps.data()+5, desc->sps.size()-5, &stuSps);
+        h264dec_seq_parameter_set((void*)(desc->sps.data()+5), desc->sps.size()-5, &stuSps);
         desc->config.width = (stuSps.pic_width_in_mbs_minus1+1)*16;
         desc->config.height = (stuSps.pic_height_in_map_units_minus1+1)*16;
 
